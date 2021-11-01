@@ -1,0 +1,11 @@
+# Boilerplate Python Items
+__pycache__/
+.vscode
+.venv
+
+# Output files 
+*.pdf
+*.txt
+!requirements.txt
+*.png
+*.mat
