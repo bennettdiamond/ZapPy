@@ -1,12 +1,12 @@
 # :zap: ZapPy :zap:
 
-A python module of (hopefully) useful class methods and example scripts for analyzing diagnostic data from the ZaP-HD experiment.
+A collection of python modules of useful class methods and example scripts for pulling and analyzing diagnostic data from the ZaP-HD experiment.
 
 ## Table of Contents
 - [Tasks/Current Status](#Tasks/Current-Status)
 - [Dependencies](#Dependencies)
 - [Installation](#Installation)
-- [Usage](#Usage)
+- [Modules](#Modules)
 - [Contributing](#Contributing)
     - [Checking Out the Repo](#checking-out-the-repo)
     - [Committing and Pushing Changes](#committing-and-pushing-changes)
@@ -25,15 +25,19 @@ WIP
 
 ## Installation
 
-### Just for use
+### For Just Analysis
 1. Download the .zip file of the repository.
 2. Run `pip install -r requirements.txt` to install dependencies.
 3. Follow the instructions [here](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html) to add Matlab support (needed for reading SPE v2.x files). Make sure that it's installed somewhere on the `$PATH` for python.
 4. Happy analyzing! :fire:
 
+### For Coding and Analysis
+See [Contributing](#contributing).
 
-## Usage
-WIP
+## Modules
+
+### Spectroscopy
+Reads in .SPE data from spectrometer. Reduces spectral data through binning and creating regions of interest. Creates gaussian fits to spectral data for temperature and wavelength analysis. Zeeman splitting support coming soon.
 
 
 ## Contributing
